@@ -1,0 +1,24 @@
+primer paso: loguearse 
+git config --global user.name " "
+git config --global user.email " " 
+
+segundo paso: inicar un repositorio
+git init(dentro de la carpeta)
+ 
+tercer paso: revisar el destino
+git remote -v
+
+cuarto paso: borrar destino
+git remote romove origin 
+
+quinto paso: indicar destino
+git remote add origin (link)
+
+un comando que podemos usar: git status
+ 
+sexto paso: iniciar el guardado
+git add "nombre del archivo": añade los cambios pero no los sube todavia
+git commit -m "(nombre descriptivo)": guarda el cambio con un mensaje
+git branch -m main: abre una rama
+git push origin main: ya terminas de subir los cambios
+
